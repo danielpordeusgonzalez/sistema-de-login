@@ -94,4 +94,10 @@ class ControllerLogin():
         except Exception as e:
             print(f"Ocorreu um erro inesperado: {e}")
             return None
+        
 
+# usuario_logado = ControllerLogin.login(email, senha) como fazer o login
+# if usuario_logado:
+#     print("Acesso concedido.")
+# else:
+#     print("Acesso negado.")
